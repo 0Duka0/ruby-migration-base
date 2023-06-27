@@ -1,0 +1,34 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activemodel (7.0.1)
+      activesupport (= 7.0.1)
+    activerecord (7.0.1)
+      activemodel (= 7.0.1)
+      activesupport (= 7.0.1)
+    activesupport (7.0.1)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      tzinfo (~> 2.0)
+    concurrent-ruby (1.1.9)
+    diffy (3.4.0)
+    i18n (1.8.11)
+      concurrent-ruby (~> 1.0)
+    minitest (5.15.0)
+    mysql2 (0.5.3)
+    ridgepole (1.0.1)
+      activerecord (>= 5.1, < 7.1)
+      diffy
+    tzinfo (2.0.4)
+      concurrent-ruby (~> 1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  mysql2
+  ridgepole
+
+BUNDLED WITH
+   2.1.4
